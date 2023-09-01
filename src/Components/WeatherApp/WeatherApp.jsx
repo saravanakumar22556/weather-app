@@ -4,7 +4,7 @@ import clearicon from "../assets/clear.png"
 import cloudicon from "../assets/cloud.png"
 import drizzleicon from "../assets/drizzle.png"
 import humidityicon from "../assets/humidity.png"
-import rainicon from "../assets/rain.png"
+import Rainicon from "../assets/rain.png"
 import searchicon from "../assets/search.png"
 import snowicon from "../assets/snow.png"
 import windicon from "../assets/wind.png"
@@ -53,7 +53,7 @@ const WeatherApp = () => {
         }
         else if(data.weather[0].icon === "09d" || data.weather[0].icon === "09n" )
         {
-            setWicon(rainicon);
+            setWicon(Rainicon);
         }
         else if(data.weather[0].icon === "10d" || data.weather[0].icon === "10n" )
         {
